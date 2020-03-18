@@ -13,8 +13,15 @@
   "files": [
     "dist"
   ],
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "config", "environment", "conev"
+  ],
+  "author": "Park Si-Yual",
+  "homepage": "https://github.com/kdPark0723/conev-json-source",
+  "bugs": {
+    "url": "https://github.com/kdPark0723/conev-json-source/issues",
+    "email": "kdpark023@gmail.com"
+  },
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^13.9.1",

@@ -1,13 +1,16 @@
 {
   "name": "conev-source-json",
-  "version": "0.0.0",
+  "version": "0.0.4",
   "description": "",
-  "main": "lib",
+  "main": "dist/lib/index.js",
+  "types" : "dist/lib/index.d.ts",
   "scripts": {
-    "prepack": "npm run build && npm run lint; exit 0",
     "build": "tsc",
     "lint": "eslint '**/*.js' --quiet --fix; eslint '**/*.ts' --quiet --fix"
   },
+  "files": [
+    "dist"
+  ],
   "keywords": [],
   "author": "",
   "license": "MIT",

@@ -1,1 +1,3 @@
-export * from './json-source';
+import JsonSource from './json-source';
+
+export default JsonSource;

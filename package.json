@@ -1,11 +1,11 @@
 {
   "name": "conev-source-json",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "dist/lib/index.js",
   "types" : "dist/lib/index.d.ts",
   "scripts": {
-    "prepare": "npm run buildPublish && npm run lint; exit 0",
+    "prepublish": "npm run buildPublish && npm run lint; exit 0",
     "build": "tsc",
     "buildPublish": "tsc -p ./publish-config",
     "lint": "eslint '**/*.ts' --quiet --fix; eslint '**/*.js' --quiet --fix"

@@ -18,7 +18,7 @@ export default class JsonSource {
     return this;
   }
 
-  async build(): Promise<Map<string, object>> {
+  async export(): Promise<Map<string, object>> {
     return this.map;
   }
 }

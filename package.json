@@ -1,9 +1,9 @@
 {
   "name": "conev-source-json",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "conev-source-json is an implementation of conev's source to get configuration from json.",
-  "main": "dist/lib/index.js",
-  "types" : "dist/lib/index.d.ts",
+  "main": "dist/index.js",
+  "types" : "dist/index.d.ts",
   "scripts": {
     "prepublish": "npm run buildPublish && npm run lint; exit 0",
     "build": "tsc",
@@ -17,9 +17,9 @@
     "config", "environment", "conev"
   ],
   "author": "Park Si-Yual",
-  "homepage": "https://github.com/kdPark0723/conev-json-source",
+  "homepage": "https://github.com/kdPark0723/conev-source-json",
   "bugs": {
-    "url": "https://github.com/kdPark0723/conev-json-source/issues",
+    "url": "https://github.com/kdPark0723/conev-source-json/issues",
     "email": "kdpark023@gmail.com"
   },
   "license": "MIT",

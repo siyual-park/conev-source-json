@@ -68,8 +68,9 @@ config.get('a.b.c'); // Is same as config.get().a.b.c
 ```typescript
 class JsonSource {
     constructor(map?: Map<string, object>);
-    setConfig(env: string, value: object): JsonSource;
-    removeConfig(env: string, value: object): JsonSource;
+    setConfig(env: string, ...values: object[]): JsonSource
+    addConfig(env: string, ...values: object[]): JsonSource;
+    removeConfig(env: string): JsonSource;
     export(): Promise<Map<string, object>>;
 }
 

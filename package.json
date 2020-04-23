@@ -1,6 +1,6 @@
 {
   "name": "conev-source-json",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "description": "conev-source-json is an implementation of conev's source to get configuration from json.",
   "main": "dist/index.js",
   "types" : "dist/index.d.ts",

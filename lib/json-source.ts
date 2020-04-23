@@ -6,15 +6,15 @@ export default class JsonSource {
     this.map = map || new Map<string, object[]>();
   }
 
-  setConfig(env: string, ...value: object[]): JsonSource {
-    this.map.set(env, value);
+  setConfig(env: string, ...values: object[]): JsonSource {
+    this.map.set(env, values);
 
     return this;
   }
 
-  addConfig(env: string, ...value: object[]): JsonSource {
+  addConfig(env: string, ...values: object[]): JsonSource {
     if (!this.map.has(env)) this.map.set(env, []);
-    this.map.get(env).push(...value);
+    this.map.get(env).push(...values);
 
     return this;
   }
